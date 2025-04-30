@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_module_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_module_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="344.209 ns"></ZoomEndTime>
+      <Cursor1Time time="300.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="173"></NameColumnWidth>
+      <ValueColumnWidth column_width="130"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/top_module_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_tb/start_signal" type="logic">
+      <obj_property name="ElementShortName">start_signal</obj_property>
+      <obj_property name="ObjectShortName">start_signal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_tb/ls_detect" type="logic">
+      <obj_property name="ElementShortName">ls_detect</obj_property>
+      <obj_property name="ObjectShortName">ls_detect</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_tb/rs_detect" type="logic">
+      <obj_property name="ElementShortName">rs_detect</obj_property>
+      <obj_property name="ObjectShortName">rs_detect</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_tb/collision_detect" type="logic">
+      <obj_property name="ElementShortName">collision_detect</obj_property>
+      <obj_property name="ObjectShortName">collision_detect</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_tb/rfid_detect" type="logic">
+      <obj_property name="ElementShortName">rfid_detect</obj_property>
+      <obj_property name="ObjectShortName">rfid_detect</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_tb/drive_lm" type="logic">
+      <obj_property name="ElementShortName">drive_lm</obj_property>
+      <obj_property name="ObjectShortName">drive_lm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_tb/drive_rm" type="logic">
+      <obj_property name="ElementShortName">drive_rm</obj_property>
+      <obj_property name="ObjectShortName">drive_rm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_tb/make_u_turn" type="logic">
+      <obj_property name="ElementShortName">make_u_turn</obj_property>
+      <obj_property name="ObjectShortName">make_u_turn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_tb/stop" type="logic">
+      <obj_property name="ElementShortName">stop</obj_property>
+      <obj_property name="ObjectShortName">stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module_tb/extend_claws" type="logic">
+      <obj_property name="ElementShortName">extend_claws</obj_property>
+      <obj_property name="ObjectShortName">extend_claws</obj_property>
+   </wvobject>
+</wave_config>
