@@ -10,7 +10,7 @@ An autonomous robot is assigned an RFID (which maps to a box of cargo) to look f
 ## What does the robot look like?
 ![image](https://github.com/user-attachments/assets/bd503b11-73f3-4fee-b564-c465ed352506)
 
-## Solutiion workflow:
+## Solution workflow:
 * High Level Block Diagram
 * Flowchart
 * Mnemonic Documented State Diagram
