@@ -28,7 +28,9 @@ I know the quality of the image isn't world class. Here's a link to view the flo
 ### 3) Mnemonic Documented State Diagram (MDS)
 ![image](https://github.com/user-attachments/assets/d48becaf-909c-45fa-88aa-774dd749d2bf)
 
-Now, using the MDS and a K-map to assign codes to every state, keeping in mind the adjacency requirements and asynchronity of input variables, we can then finally implement the hardware using more K-maps fro the expressions of the outputs of the D-Flip Flops used as the memory of the FSM.
+Now, using the MDS and a K-map to assign codes to every state, keeping in mind the adjacency requirements and asynchronity of input variables, we can then finally implement the hardware using more K-maps for the expressions of the outputs of the D-Flip Flops used as the memory of the FSM.
+
+### 4) Hardware Design (method-1: Verilog)
 
 With some tinkering around and experimentation, found the right level of abstraction to encompass the whole design using cleverly enclosed Verilog modules, it makes it much cleaner and easier to read and understand.
 
@@ -39,6 +41,10 @@ But, in case you're wondering what this looks like on the inside, here's a more 
 
 Finally, we ran the code using a testbench that we wrote to simulate its working and here were the results:
 ![image](https://github.com/user-attachments/assets/d1946fc1-6a12-47c9-b1f8-995106098e44)
+
+## (method-2: PCB assembly)
+We made a PoC PCB schematic in KiCad to provide an alternative to fabricating the controller as a chip.
+<img width="1034" height="714" alt="image" src="https://github.com/user-attachments/assets/500f238d-e4b2-4518-9562-0c9d6633eaf0" />
 
 Again, this is a very crude and simplistic modeling of a very complex real world problem, and is a purely proof-of-concept based fun idea we wanted to experiment with. Massive thanks to the collaborative effort of our team which made this whole project possible. I've mentioned their names in the notes and references.
 
