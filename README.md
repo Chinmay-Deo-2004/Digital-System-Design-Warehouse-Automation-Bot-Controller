@@ -59,7 +59,7 @@ Again, this is a very crude and simplistic modeling of a very complex real world
 
 Theory: An Engineering Approach to Digital Design (William L. Fletcher) 
 
-Software used for VHDL implementation: Vivado
+Software used for Verilog implementation: Vivado
 
 
 
